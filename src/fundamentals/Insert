@@ -1,0 +1,30 @@
+--Single row without column name specified
+
+select * from customer_table;
+
+SELECT
+   table_name,
+   column_name,
+   data_type
+FROM
+   information_schema.columns
+WHERE
+   table_name = 'customer_table';
+
+insert into customer_table values (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
+
+insert into customer_table (
+    "age",
+    cust_id,
+    email_id,
+    first_name,
+    last_name)
+values (
+    '23',
+    234,
+    'sanjiv.katiyar@gmail.com', 'Sanjiv', 'Katiyar');
+
+delete  from customer_table
+
+alter table customer_table alter column "age" type int
+
