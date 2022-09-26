@@ -13,6 +13,7 @@ WHERE
 
 insert into customer_table values (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
 
+--Single row with column name specified
 insert into customer_table (
     "age",
     cust_id,
@@ -28,3 +29,11 @@ delete  from customer_table
 
 alter table customer_table alter column "age" type int
 
+-- Multiple Row
+insert into customer_table values
+(23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
+(24, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
+(25, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
+(26, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
+
+select * from customer_table;

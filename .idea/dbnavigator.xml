@@ -55,6 +55,7 @@
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Create" connection-id="6360173d-1580-4955-a49d-308550ea87af" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Insert" connection-id="161a2344-fd9d-4934-b98f-f6ec9d1529da" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$" connection-id="virtual-postgres-connection" session-id="MAIN" current-schema="" />
+    <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Import" connection-id="161a2344-fd9d-4934-b98f-f6ec9d1529da" session-id="MAIN" current-schema="public" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />

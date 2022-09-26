@@ -1,0 +1,5 @@
+copy customer_table from 'C:\MyLearning\copy.csv' delimiter ',' csv header;
+
+select * from customer_table
+
+copy customer_table from 'C:\MyLearning\copytext.txt' delimiter ',';
