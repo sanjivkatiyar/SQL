@@ -1,0 +1,5 @@
+select * from science_class;
+
+update science_class set enrollment_no = 2 where name = 'Shreyas';
+
+update science_class set enrollment_no = 2 , science_mark = 105 where name = 'Shreyas';

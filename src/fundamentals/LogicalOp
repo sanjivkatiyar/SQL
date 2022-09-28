@@ -1,0 +1,42 @@
+select * from customer_table;
+
+select * from customer_table where age> 25 and age< 40;
+
+select * from customer_table where age> 25 and age< 40 or first_name = 'Sanjiv';
+
+select distinct * from customer_table where age> 25 and age< 40 or first_name = 'Sanjiv';
+
+select * from customer_table where not age = 25;
+
+--------------------------------------
+
+SELECT
+   table_name,
+   column_name,
+   data_type
+FROM
+   information_schema.columns
+WHERE
+   table_name = 'science_class';
+
+select * from science_class;
+
+insert into science_class (enrollment_no, name, science_mark)
+values (1, 'Sanjiv', 76),
+    (1, 'Shreyas', 100),
+    (1, 'Ishi', 100),
+    (1, 'Jyoti', 50),
+    (1, 'Shikha', 96),
+    (1, 'BLK', 90),
+    (1, 'Manju', 45);
+
+select * from science_class where science_mark > 50;
+
+select * from science_class where science_mark > 36 and science_mark < 60;
+
+select * from science_class where science_mark <= 45 or science_mark >= 96;
+
+
+
+
+
