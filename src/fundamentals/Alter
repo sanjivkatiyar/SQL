@@ -1,0 +1,19 @@
+create table Test (
+no int,
+name varchar,
+comment varchar
+);
+
+insert into Test values ( 1, 'test', 'comment');
+
+select * from Test;
+
+Alter table Test add addtional_field varchar;
+
+Alter table Test drop column addtional_field;
+
+Alter table Test add addtional_field varchar;
+
+Alter table Test alter column addtional_field type int using addtional_field::integer;
+
+Alter table Test alter column addtional_field type int
