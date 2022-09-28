@@ -16,4 +16,6 @@ Alter table Test add addtional_field varchar;
 
 Alter table Test alter column addtional_field type int using addtional_field::integer;
 
-Alter table Test alter column addtional_field type int
+Alter table Test alter column addtional_field type int;
+
+Alter table Test rename column addtional_field to additional_field;
