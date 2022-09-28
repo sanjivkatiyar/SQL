@@ -1,0 +1,8 @@
+select * from science_class;
+
+delete from science_class where science_mark = 45;
+
+delete from science_class where science_mark < 45;
+
+delete from scinece_class;
+
