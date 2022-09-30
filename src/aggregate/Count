@@ -1,0 +1,12 @@
+select count(*) from sales;
+
+select * from sales;
+
+select count(order_line) as "number of product ordered",
+ count(distinct order_id) as "number of orders"
+ from sales;
+
+ select count(order_line) as "number of product ordered",
+ count(distinct order_id) as "number of orders"
+ from sales where customer_id = 'CG-12520';
+
