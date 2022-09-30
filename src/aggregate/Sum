@@ -1,0 +1,5 @@
+select * from sales;
+
+select sum(profit) as "Total Profit" from sales;
+
+select sum(quantity) as "Total Quantity" from sales where product_id ='FUR-BO-10001798'
