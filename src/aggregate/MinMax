@@ -8,5 +8,19 @@ select max(sales) from sales where order_date between '2015-06-01' and '2015-06-
 
 select sales from sales where order_date between '2015-06-01' and '2015-06-30' order by sales desc;
 
+select sum(sales) from sales;
+
+select from customer;
+
+select * from customer;
+
+select count(*) from customer where region = 'North' and age between 20 and 30;
+
+select avg(age) from customer where region = 'East';
+
+select min(age) as "Min Age", max(age) as "Max Age" from customer where city = 'Philadelphia';
+
+
+
 
 
