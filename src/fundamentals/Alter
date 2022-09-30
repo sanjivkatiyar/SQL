@@ -19,3 +19,26 @@ Alter table Test alter column addtional_field type int using addtional_field::in
 Alter table Test alter column addtional_field type int;
 
 Alter table Test rename column addtional_field to additional_field;
+
+alter table Test alter column additional_field set not null;
+
+delete from test;
+
+select * from Test;
+
+alter table Test alter column additional_field drop not null;
+
+alter table Test add constraint no check (no>0);
+
+insert into Test (no, name, comment, additional_field) values (1, 'Sanjiv', 'Comment', 1);
+
+alter table Test add primary key (no);
+
+create table Child (
+child_no int,
+parent_no int,
+name varchar,
+comment varchar
+);
+
+alter table child add foreign key (parent_no) references Test(no);
