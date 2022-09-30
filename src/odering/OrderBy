@@ -1,0 +1,9 @@
+select * from customer where state = 'California' order by customer_name; -- Asc order by default
+select * from customer where state = 'California' order by customer_name ASC;
+select * from customer where state = 'California' order by customer_name DESC;
+select * from customer order by age;
+
+select * from customer order by city asc, customer_name desc;
+
+select * from customer order by 2;
+
