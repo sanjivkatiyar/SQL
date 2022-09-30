@@ -1,0 +1,3 @@
+select customer_id as "Serial Number",  Customer_name as Name, age as "Customer_age" from customer;
+
+select * from customer;
