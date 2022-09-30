@@ -61,6 +61,7 @@
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Update" connection-id="6360173d-1580-4955-a49d-308550ea87af" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Delete" connection-id="6360173d-1580-4955-a49d-308550ea87af" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/alias/As" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/src/aggregate/GroupBy" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Alter" connection-id="6360173d-1580-4955-a49d-308550ea87af" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/filtering/In" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/LogicalOp" connection-id="6360173d-1580-4955-a49d-308550ea87af" session-id="MAIN" current-schema="public" />

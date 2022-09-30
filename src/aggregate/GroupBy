@@ -1,0 +1,13 @@
+select * from customer
+
+select region, count(customer_id) from customer group by region;
+
+select region from customer group by region;
+
+select count(customer_id) from customer group by region;
+
+select customer_id from customer group by region; -- will not work
+
+select * from sales;
+
+select product_id, sum(quantity) as item_sold from sales group by product_id order by item_sold desc;
