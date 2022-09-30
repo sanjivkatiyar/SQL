@@ -10,3 +10,12 @@ select region, count(customer) from customer where age>50  group by region
 
 select region, count(customer) from customer where age>50  group by region having count(customer)>200
 
+select * from sales;
+
+select product_id, sum(sales) as total_sales, sum(quantity), max(sales), min(sales), avg(sales) from sales
+group by product_id having sum(quantity) > 10 order by total_sales DESC limit 10
+
+select * from customer where age between 100 and 10 -- no result
+
+select * from customer where age between 10 and 100
+
