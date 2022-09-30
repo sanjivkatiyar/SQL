@@ -1,0 +1,12 @@
+select * from customer;
+
+select region, count(customer) as customer_count from customer group by region having customer_count>200 -- does not work
+
+select region, count(customer) from customer group by region having count(customer)>200
+
+select region, count(customer) from customer group by region having age>50 -- will not work
+
+select region, count(customer) from customer where age>50  group by region
+
+select region, count(customer) from customer where age>50  group by region having count(customer)>200
+
