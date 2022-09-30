@@ -1,0 +1,7 @@
+select * from sales;
+
+select * from customer;
+
+select avg(age) from customer;
+
+select avg(sales*.10) as "Average Commission Value" from sales;

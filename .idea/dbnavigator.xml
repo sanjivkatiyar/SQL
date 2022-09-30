@@ -69,10 +69,12 @@
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Create" connection-id="6360173d-1580-4955-a49d-308550ea87af" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/odering/OrderBy" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/odering/Limit" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/src/aggregate/MinMax" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Select" connection-id="161a2344-fd9d-4934-b98f-f6ec9d1529da" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/filtering/Between" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/filtering/Like" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Import" connection-id="161a2344-fd9d-4934-b98f-f6ec9d1529da" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/src/aggregate/Average" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/aggregate/Count" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/aggregate/Sum" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
   </component>

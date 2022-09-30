@@ -1,0 +1,12 @@
+select * from sales;
+
+select min(sales) from sales where order_date between '2015-06-01' and '2015-06-30';
+
+select sales from sales where order_date between '2015-06-01' and '2015-06-30' order by sales;
+
+select max(sales) from sales where order_date between '2015-06-01' and '2015-06-30';
+
+select sales from sales where order_date between '2015-06-01' and '2015-06-30' order by sales desc;
+
+
+
