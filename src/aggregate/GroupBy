@@ -8,6 +8,14 @@ select count(customer_id) from customer group by region;
 
 select customer_id from customer group by region; -- will not work
 
+select region, age from customer group by region; -- will not work
+
+select region, avg(age) from customer group by region;
+
+select region, state,  avg(age) from customer group by region, state;
+
 select * from sales;
 
 select product_id, sum(quantity) as item_sold from sales group by product_id order by item_sold desc;
+
+select customer_id, sum(sales) as total_sales, min(sales), max(sales), avg(sales) from sales group by customer_id order by total_sales DESC limit 5;
