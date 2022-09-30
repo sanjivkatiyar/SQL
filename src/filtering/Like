@@ -1,0 +1,29 @@
+select * from customer where customer_name like 'J%';
+
+select * from customer;
+
+select * from customer where customer_name like '%Nelson%';
+
+select * from customer where customer_name like '____ %';
+
+select distinct city from customer where city not like 'S%';
+
+select * from customer where customer_name like 'G\%';
+
+select * from customer;
+
+select distinct city from customer where region in ('North', 'East');
+
+select * from sales;
+
+select * from sales where sales between 100 and 500;
+
+select * from customer;
+
+select * from customer where customer_name like '% ____';
+
+/*
+Multi line comment
+*/
+
+-- Single line comment
