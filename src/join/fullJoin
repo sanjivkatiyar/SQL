@@ -8,3 +8,11 @@ from customer_20_60 a
 full join sales_2015 b
 on a.customer_id = b.customer_id
 order by a.customer_id
+
+/*
+• INNER JOIN (or sometimes called simple join)
+• LEFT OUTER JOIN (or sometimes called LEFT JOIN)
+• RIGHT OUTER JOIN (or sometimes called RIGHT JOIN)
+• FULL OUTER JOIN (or sometimes called FULL JOIN)
+• CROSS JOIN (or sometimes called CARTESIAN JOIN)
+*/
