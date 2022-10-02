@@ -5,7 +5,6 @@ select a.customer_name,
     b.product_id,
     b.sales
 from customer_20_60 a
-right join sales_2015 b
+full join sales_2015 b
 on a.customer_id = b.customer_id
-order by a.customer_id desc
-
+order by a.customer_id
