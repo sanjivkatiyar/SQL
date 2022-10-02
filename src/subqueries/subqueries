@@ -1,0 +1,1 @@
+select * from sales_2015 where customer_id in (select customer_id from customer where age > 60);
