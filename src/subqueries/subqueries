@@ -1,1 +1,27 @@
 select * from sales_2015 where customer_id in (select customer_id from customer where age > 60);
+
+SELECT
+a.product_id ,
+a.product_name ,
+a.category,
+b.quantity
+FROM product AS a
+LEFT JOIN (SELECT product_id,
+SUM(quantity) AS quantity
+FROM sales GROUP BY product_id) AS b
+ON a.product_id = b.product_id
+ORDER BY b.quantity desc;
+
+select * from sales;
+
+select * from product;
+
+select a.product_id,
+    a.product_name,
+    a.category,
+    sum(b.sales),
+    sum(b.quantity)
+    from product a
+    left join sales b
+    on a.product_id = b.product_id
+    group by a.product_id;
