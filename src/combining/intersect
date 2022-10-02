@@ -1,0 +1,6 @@
+select customer_id from customer_20_60 intersect
+select customer_id from sales_2015;
+
+--will keep the duplicate
+select customer_id from customer_20_60 intersect all
+select customer_id from sales_2015;

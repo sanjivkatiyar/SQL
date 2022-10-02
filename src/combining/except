@@ -1,0 +1,2 @@
+select customer_id from customer_20_60 except
+select customer_id from sales_2015;
