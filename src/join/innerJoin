@@ -1,0 +1,26 @@
+select * from customer_20_60;
+
+select * from sales_2015;
+
+select a.customer_name,
+    a.age,
+    b.order_line,
+    b.customer_id,
+    b.product_id,
+    b.sales
+from customer_20_60 as a
+inner join sales_2015 as b
+on a.customer_id = b.customer_id
+order by a.customer_id
+
+
+select a.customer_name,
+    a.age,
+    b.order_line,
+    b.customer_id,
+    b.product_id,
+    b.sales
+from customer_20_60 a
+inner join sales_2015 b
+on a.customer_id = b.customer_id
+order by a.customer_id

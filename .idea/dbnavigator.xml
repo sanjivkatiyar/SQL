@@ -70,6 +70,7 @@
     <mapping file-url="file://$PROJECT_DIR$/src/aggregate/Count" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/aggregate/Sum" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/conditional/Case" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/src/join/innerJoin" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Where" connection-id="161a2344-fd9d-4934-b98f-f6ec9d1529da" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/alias/As" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/aggregate/GroupBy" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
