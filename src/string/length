@@ -1,0 +1,3 @@
+select customer_name, length(customer_name) as len from customer where age>25
+
+select customer_name, length(customer_name) from customer where age>25
