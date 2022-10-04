@@ -25,3 +25,12 @@ select a.product_id,
     left join sales b
     on a.product_id = b.product_id
     group by a.product_id;
+
+
+    SELECT customer_id,
+order_line,
+(SELECT customer_name
+FROM customer
+WHERE sales.customer_id = customer.customer_id)
+FROM sales
+ORDER BY customer_id;
