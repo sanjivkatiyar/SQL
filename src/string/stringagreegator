@@ -1,0 +1,5 @@
+select * from sales order by order_id;
+
+select order_id, string_agg(product_id, ', ')
+from sales
+group by order_id;
