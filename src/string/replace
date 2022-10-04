@@ -1,3 +1,5 @@
 select *, replace (country, 'United States', 'US') as new_country from customer;
 
 select *, replace (country, 'United States', 'US') from customer;
+
+select *, replace (lower(country), lower('United States'), 'US') from customer;
