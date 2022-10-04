@@ -14,3 +14,9 @@ select * from logistics;
 
 -- create or replace view to avoid errors if view exists
 
+drop view logistics;
+
+select * from customer;
+
+update logistics set country = 'us' where country = 'United States'    -- not updatable as data is from multiple tables
+
