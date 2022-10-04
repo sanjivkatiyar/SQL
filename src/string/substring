@@ -1,0 +1,6 @@
+select * from customer;
+
+select customer_name,
+substring(customer_id for 2) as customer_group,
+substring(customer_id from 4 for 5) as customomet_no from customer
+where substring(customer_id for 2) = 'AB';
