@@ -1,0 +1,2 @@
+select customer_name, city||' , '||state||' , '||country from customer;
+select customer_name, city||state||country from customer;
