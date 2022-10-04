@@ -3,3 +3,18 @@ create index mon_idx on month_values(MM);
 commit;
 
 select * from information_schema.columns where table_name = 'month_value';
+
+drop index mon_idx;
+
+drop index if exists mon_idx;
+
+drop index if exists mon_idx cascade;
+
+drop index if exists mon_idx restrict;
+
+create index sales_idx on sales_2015 (customer_id, product_id);
+
+commit;
+
+drop index sales_idx;
+

@@ -303,7 +303,7 @@
           <deprecated-pwd value="cG9zdGdyZXM=" />
         </database>
         <properties>
-          <auto-commit value="false" />
+          <auto-commit value="true" />
         </properties>
         <ssh-settings>
           <active value="false" />
