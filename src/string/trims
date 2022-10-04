@@ -1,0 +1,23 @@
+select trim(leading ' ' from '  sanjiv katiyar  ');
+
+select trim(trailing ' ' from '  sanjiv katiyar  ');
+
+select trim(both ' ' from '  sanjiv katiyar  ');
+
+select trim('  sanjiv katiyar  ');
+
+select trim('  sanjiv katiyar');
+
+select ltrim('  sanjiv katiyar  ');
+
+select ltrim('  sanjiv katiyar  ', ' ');
+
+select trim('  sanjiv katiyar  ', ' ');
+
+select rtrim('  sanjiv katiyar  ');
+
+select rtrim('  sanjiv katiyar  ', ' ');
+
+select ltrim('Sanjiv Katiyar', 'San');
+
+
