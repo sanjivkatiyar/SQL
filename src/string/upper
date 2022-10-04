@@ -1,0 +1,3 @@
+select upper('Sanjiv-Katiyar');
+
+select upper(customer_name) from customer;
