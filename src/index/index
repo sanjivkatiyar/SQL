@@ -1,0 +1,5 @@
+create index mon_idx on month_values(MM);
+
+commit;
+
+select * from information_schema.columns where table_name = 'month_value';
