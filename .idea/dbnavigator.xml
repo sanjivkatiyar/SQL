@@ -72,6 +72,7 @@
     <mapping file-url="file://$PROJECT_DIR$/src/combining/union" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/fundamentals/Select" connection-id="161a2344-fd9d-4934-b98f-f6ec9d1529da" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/string/replace" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/src/mathmatical/random" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/filtering/Between" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/join/fullJoin" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/mathmatical/ceilFloor" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
