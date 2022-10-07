@@ -1,0 +1,12 @@
+SELECT sales, TO_CHAR(sales, '9999.99')
+FROM sales;
+SELECT sales, TO_CHAR(sales, 'L9,999.99')
+FROM sales;
+SELECT order_date, TO_CHAR(order_date, 'MMDDYY')
+FROM sales;
+SELECT order_date, TO_CHAR(order_date, 'Month DD, YYYY')
+FROM sales;
+
+
+SELECT sales, 'total Sales'||TO_CHAR(sales, '$9,999.99')
+FROM sales;

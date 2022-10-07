@@ -99,6 +99,7 @@
     <mapping file-url="file://$PROJECT_DIR$/src/combining/intersect" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/alias/As" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/aggregate/GroupBy" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/src/conversion/noOrDateToString" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$" connection-id="virtual-postgres-connection" session-id="MAIN" current-schema="" />
     <mapping file-url="file://$PROJECT_DIR$/src/index/index" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/join/copyTable" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
