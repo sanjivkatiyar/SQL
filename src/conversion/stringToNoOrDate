@@ -1,1 +1,7 @@
 select to_date ('10/7/2022', 'mm/dd/yyyy');
+
+select to_number('$1,345.34', 'L9,999.99');
+select to_number('$1,345.34', 'L9,999.9');
+select to_number('$1345.34', 'L999999.9');
+select to_number('$1345.34', 'L999999.999');
+
