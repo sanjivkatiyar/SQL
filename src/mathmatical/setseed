@@ -1,0 +1,5 @@
+select setseed(.9);
+
+select Random();
+
+select random();
