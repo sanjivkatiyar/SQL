@@ -1,0 +1,25 @@
+CREATE USER starttech
+WITH PASSWORD 'academy';
+
+CREATE USER starttech
+WITH PASSWORD 'academy'
+VALID UNTIL 'Jan 1, 2020';
+
+CREATE USER starttech
+WITH PASSWORD 'academy'
+VALID UNTIL 'infinity';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON product TO starttech;
+GRANT ALL ON product TO starttech;
+GRANT SELECT ON product TO PUBLIC;
+REVOKE ALL ON product FROM starttech;
+
+DROP USER techonthenet;
+
+ALTER USER starttech rename to SSTT;
+
+SELECT usename
+FROM pg_user;
+
+SELECT DISTINCT usename
+FROM pg_stat_activity;
