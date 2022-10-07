@@ -1,0 +1,12 @@
+select extract (decade from current_timestamp);
+select extract (day from current_timestamp);
+select extract (month from current_timestamp);
+select extract (year from current_timestamp);
+select extract (doy from current_timestamp);
+select extract (hour from current_timestamp);
+select extract (minute from current_timestamp);
+select extract (second from current_timestamp);
+select extract (dow from current_timestamp);
+
+select extract (epoch from age('1982-11-30', current_date));
+
