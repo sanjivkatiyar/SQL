@@ -23,20 +23,20 @@ criteria.
 the primary key) of another table.
 - The purpose of the ***foreign key*** is to ensure referential integrity of the data.
 
-### Create Table
+### Create table
 
 ```postgres-psql
 create table science_class (enrollment_no integer, name varchar, science_mark int);
 ```
 
-### Table Information
+### Table information
 ```postgres-psql
 SELECT table_name, column_name, data_type
 FROM information_schema.columns
 WHERE table_name = 'customer_table';
 ```
 
-### Insert into Table
+### Insert into table
 
 #### Single row without column name specified
 ```postgres-psql
@@ -50,7 +50,7 @@ INSERT INTO customer_table ("age", cust_id, email_id, first_name, last_name)
 values ( '23', 234, 'sanjiv.katiyar@gmail.com', 'Sanjiv', 'Katiyar');
 ```
 
-#### Multiple Rows
+#### Multiple rows
 ```postgres-psql
 INSERT INTO customer_table 
 VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
@@ -59,9 +59,9 @@ VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
 (26, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
 ```
 
-### Import Data
+### Import data
 
-#### Import from CSV
+#### Import from CSV file
 
 ```postgres-psql
 COPY customer_table 
@@ -69,7 +69,7 @@ FROM 'C:\MyLearning\copy.csv'
 DELIMITER ',' csv header;
 ```
 
-#### Import from Text
+#### Import from text file
 
 ```postgres-psql
 
@@ -77,5 +77,14 @@ COPY customer_table
 FROM 'C:\MyLearning\copytext.txt' 
 DELIMITER ',';
 
+```
+
+### Fetch records from table
+
+#### Select all records 
+```postgres-psql
+SELECT * FROM customer_table;
+SELECT first_name FROM customer_table;
+SELECT first_name, last_name FROM customer_table;
 ```
 
