@@ -59,15 +59,20 @@ VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
 (26, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
 ```
 
-### <mark>Import data
+### <mark> Import data
 
 #### Import from CSV file
+
+<details><summary>Code Snippet</summary>
+<p>
 
 ``` sql
 COPY customer_table 
 FROM 'C:\MyLearning\copy.csv' 
 DELIMITER ',' csv header;
 ```
+</p>
+</details>
 
 #### Import from text file
 
