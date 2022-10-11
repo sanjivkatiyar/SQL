@@ -30,7 +30,7 @@ create table science_class (enrollment_no integer, name varchar, science_mark in
 ```
 
 ### Table information
-```postgres-psql
+``` sql
 SELECT table_name, column_name, data_type
 FROM information_schema.columns
 WHERE table_name = 'customer_table';
@@ -39,19 +39,19 @@ WHERE table_name = 'customer_table';
 ### Insert into table
 
 #### Single row without column name specified
-```postgres-psql
+``` sql
 INSERT INTO customer_table 
 VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
 ```
 
 #### Single row with column name specified
-```postgres-psql
+``` sql
 INSERT INTO customer_table ("age", cust_id, email_id, first_name, last_name)
 values ( '23', 234, 'sanjiv.katiyar@gmail.com', 'Sanjiv', 'Katiyar');
 ```
 
 #### Multiple rows
-```postgres-psql
+``` sql
 INSERT INTO customer_table 
 VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
 (24, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
@@ -63,7 +63,7 @@ VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
 
 #### Import from CSV file
 
-```postgres-psql
+``` sql
 COPY customer_table 
 FROM 'C:\MyLearning\copy.csv' 
 DELIMITER ',' csv header;
@@ -71,18 +71,16 @@ DELIMITER ',' csv header;
 
 #### Import from text file
 
-```postgres-psql
-
+``` sql
 COPY customer_table 
 FROM 'C:\MyLearning\copytext.txt' 
 DELIMITER ',';
-
 ```
 
 ### Fetch records from table
 
 #### Select all records 
-```postgres-psql
+``` sql
 SELECT * FROM customer_table;
 SELECT first_name FROM customer_table;
 SELECT first_name, last_name FROM customer_table;
