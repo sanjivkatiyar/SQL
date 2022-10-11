@@ -58,3 +58,24 @@ VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
 (25, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
 (26, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
 ```
+
+### Import Data
+
+#### Import from CSV
+
+```postgres-psql
+COPY customer_table 
+FROM 'C:\MyLearning\copy.csv' 
+DELIMITER ',' csv header;
+```
+
+#### Import from Text
+
+```postgres-psql
+
+COPY customer_table 
+FROM 'C:\MyLearning\copytext.txt' 
+DELIMITER ',';
+
+```
+
