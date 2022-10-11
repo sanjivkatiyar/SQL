@@ -59,7 +59,7 @@ VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
 (26, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
 ```
 
-### <mark>Import data</mark>
+### <mark>Import data
 
 #### Import from CSV file
 
