@@ -19,7 +19,7 @@ criteria.
 - A ***primary key*** can consist of one or more columns on a table.
 - When multiple columns are used as a primary key, they are called a
   ***composite key***.
-- A ***foreign key*** is a column (or columns) that references a column (most often
+- :rocket: A ***foreign key*** is a column (or columns) that references a column (most often
 the primary key) of another table.
 - The purpose of the ***foreign key*** is to ensure referential integrity of the data.
 
@@ -59,20 +59,15 @@ VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
 (26, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
 ```
 
-### <mark> Import data
+### :rocket: Import data 
 
 #### Import from CSV file
-
-<details><summary>Code Snippet</summary>
-<p>
 
 ``` sql
 COPY customer_table 
 FROM 'C:\MyLearning\copy.csv' 
 DELIMITER ',' csv header;
 ```
-</p>
-</details>
 
 #### Import from text file
 
@@ -90,4 +85,3 @@ SELECT * FROM customer_table;
 SELECT first_name FROM customer_table;
 SELECT first_name, last_name FROM customer_table;
 ```
-
