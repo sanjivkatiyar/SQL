@@ -1,8 +1,8 @@
 # SQL Programming
 
-##Fundamentals
+## Fundamentals
 
-###Constraints
+### Constraints
 
 - **NOT NULL Constraint:** Ensures that a column cannot have NULL value.
 - **DEFAULT Constraint:** Provides a default value for a column when none is
@@ -13,7 +13,7 @@ criteria.
 - **Primary Key Constraint:** Used to uniquely identify a row in the table.
 - **Foreign Key Constraint:** Used to ensure referential integrity of the data.
 
-###Keys
+### Keys
 
 - A ***primary key*** is used to uniquely identify each row in a table.
 - A ***primary key*** can consist of one or more columns on a table.
