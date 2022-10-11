@@ -26,6 +26,17 @@ the primary key) of another table.
 ### Create Table
 
 ```postgres-psql
-Create table science_class (enrollment_no integer, name varchar, science_mark int);
+create table science_class (enrollment_no integer, name varchar, science_mark int);
 ```
 
+### Table Information
+```postgres-psql
+SELECT
+   table_name,
+   column_name,
+   data_type
+FROM
+   information_schema.columns
+WHERE
+   table_name = 'customer_table';
+```
