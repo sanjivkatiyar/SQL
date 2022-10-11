@@ -31,12 +31,30 @@ create table science_class (enrollment_no integer, name varchar, science_mark in
 
 ### Table Information
 ```postgres-psql
-SELECT
-   table_name,
-   column_name,
-   data_type
-FROM
-   information_schema.columns
-WHERE
-   table_name = 'customer_table';
+SELECT table_name, column_name, data_type
+FROM information_schema.columns
+WHERE table_name = 'customer_table';
+```
+
+### Insert into Table
+
+#### Single row without column name specified
+```postgres-psql
+INSERT INTO customer_table 
+VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
+```
+
+#### Single row with column name specified
+```postgres-psql
+INSERT INTO customer_table ("age", cust_id, email_id, first_name, last_name)
+values ( '23', 234, 'sanjiv.katiyar@gmail.com', 'Sanjiv', 'Katiyar');
+```
+
+#### Multiple Rows
+```postgres-psql
+INSERT INTO customer_table 
+VALUES (23, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
+(24, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
+(25, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' ),
+(26, 'Sanjiv', 'Katiyar', 123, 'sanjiv.katiyar@gmail.com' );
 ```
