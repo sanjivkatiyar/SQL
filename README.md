@@ -2,7 +2,7 @@
 
 ##Fundamentals
 
----
+
 
 ###Constraints
 
@@ -15,7 +15,7 @@ criteria.
 - **Primary Key Constraint:** Used to uniquely identify a row in the table.
 - **Foreign Key Constraint:** Used to ensure referential integrity of the data.
 
----
+
 
 ###Keys
 
@@ -26,7 +26,7 @@ criteria.
 - A ***foreign key*** is a column (or columns) that references a column (most often
 the primary key) of another table.
 - The purpose of the ***foreign key*** is to ensure referential integrity of the data.
----
+
 
 
 ### Create Table
