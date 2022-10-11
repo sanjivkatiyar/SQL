@@ -2,8 +2,6 @@
 
 ##Fundamentals
 
-
-
 ###Constraints
 
 - **NOT NULL Constraint:** Ensures that a column cannot have NULL value.
@@ -14,8 +12,6 @@ specified.
 criteria.
 - **Primary Key Constraint:** Used to uniquely identify a row in the table.
 - **Foreign Key Constraint:** Used to ensure referential integrity of the data.
-
-
 
 ###Keys
 
