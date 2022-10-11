@@ -1,1 +1,1 @@
-Create table science_class1 (enrollment_no integer, name varchar, science_mark int);
+Create table science_class (enrollment_no integer, name varchar, science_mark int);

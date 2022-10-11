@@ -23,7 +23,9 @@ criteria.
 the primary key) of another table.
 - The purpose of the ***foreign key*** is to ensure referential integrity of the data.
 
-
-
 ### Create Table
+
+```postgres-psql
+Create table science_class (enrollment_no integer, name varchar, science_mark int);
+```
 
