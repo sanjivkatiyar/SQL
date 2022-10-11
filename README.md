@@ -25,7 +25,7 @@ the primary key) of another table.
 
 ### Create table
 
-```postgres-psql
+``` sql
 create table science_class (enrollment_no integer, name varchar, science_mark int);
 ```
 
