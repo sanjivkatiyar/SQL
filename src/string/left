@@ -1,0 +1,3 @@
+select * from customer;
+
+select customer_name from customer where age>50 order by left(customer_name,3),customer_id ASC;
