@@ -12,9 +12,9 @@
       <quote-values-containing-separator value="true" />
       <quote-all-values value="false" />
       <value-separator value="" />
-      <file-name value="" />
-      <file-location value="" />
-      <scope value="GLOBAL" />
+      <file-name value="Result 1.xls" />
+      <file-location value="D:\" />
+      <scope value="SELECTION" />
       <destination value="FILE" />
       <format value="EXCEL" />
       <charset value="windows-1252" />
@@ -76,6 +76,7 @@
     <mapping file-url="file://$PROJECT_DIR$/src/join/crossJoin" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/view/view" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/string/length" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/src/string/right" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/aggregate/Average" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/datetime/age" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/subqueries/subqueries" connection-id="8ea90a1d-f85c-440f-a36a-9ff2482d2ec4" session-id="MAIN" current-schema="public" />
